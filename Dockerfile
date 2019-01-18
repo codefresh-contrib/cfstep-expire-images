@@ -7,6 +7,7 @@ RUN apk update && \
     apk add --no-cache \
         git \
         nodejs && \
+    npm config set unsafe-perm true && \
     npm install codefresh -g
 
 COPY script/expire_images.py /expire_images.py
