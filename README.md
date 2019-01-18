@@ -1,4 +1,4 @@
-# cfstep-expire-images
+# cfstep-expire-images [![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/codefresh-inc/codefresh-contrib%2Fcfstep-expire-images%2Fcfstep-expire-images?branch=master&key=eyJhbGciOiJIUzI1NiJ9.NTY3MmQ4ZGViNjcyNGI2ZTM1OWFkZjYy.AN2wExsAsq7FseTbVxxWls8muNx_bBUnQWQVS8IgDTI&type=cf-1)]( https://g.codefresh.io/pipelines/cfstep-expire-images/builds?repoOwner=codefresh-contrib&repoName=cfstep-expire-images&serviceName=codefresh-contrib%2Fcfstep-expire-images&filter=trigger:build~Build;branch:master;pipeline:5c423f3e499315dcd2bc68d7~cfstep-expire-images)
 Tool for expiring Docker images by removing their tags after passing expiration date
 
 To keep your Codefresh Registry clean we can add metadata to your Docker images to expire them on a specific date.
